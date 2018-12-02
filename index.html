@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+<div id="app">
+  <span v-bind:title="message">  {{message}}
+</span>
+<p v-if="name.show">
+{{name.first}}
+{{name.last}}
+</p>
+<ul>
+  <li v-for="fruit in fruits">
+     {{fruit.amount}} pieces of {{ fruit.name }}
+  </li>
+</ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="main.js" charset="utf-8"></script>
+  </body>
+</html>

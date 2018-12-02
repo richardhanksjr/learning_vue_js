@@ -1,0 +1,8 @@
+{
+  "name": "priorities",
+  "children": [
+    {"name": "Proxy", "size": 5},
+    {"name": "CSDB", "size": 5},
+    {"name": "EPOPrint", "size": 3}
+  ]
+}
